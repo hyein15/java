@@ -11,9 +11,9 @@ public class qc3 {
 		
 		Scanner num2 = new Scanner(System.in);
 		
-		System.out.println("³ª´©¾îÁú ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ë‚˜ëˆ„ì–´ì§ˆ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		String num1_ = num1.next();
-		System.out.println("³ª´­¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ë‚˜ëˆŒìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		String num2_ = num2.next();
 		
 
@@ -32,12 +32,12 @@ public class qc3 {
 		System.out.println(div);		
 		
 	}catch (NumberFormatException e){
-		System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 	
 	}catch(ArithmeticException e){
-		System.out.println("0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù");
+		System.out.println("0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤");
 	}catch(IOException e){
-		System.out.println("2ÀÚ¸® ÀÌÇÏ·Î ÀÔ·ÂÇØÁÖ¼¼¿ä");
+		System.out.println("2ìë¦¬ ì´í•˜ë¡œ ì…ë ¥í•´ì£¼ì„¸ìš”");
 	}
 	
 
@@ -52,7 +52,7 @@ public class MyException {
 			Exception e=new Exception();
 			throw e;                             
 		}catch(Exception e){               
-			System.out.println("Exception ¹ß»ı");  
+			System.out.println("Exception ë°œìƒ");  
 		}
 	}
 }
